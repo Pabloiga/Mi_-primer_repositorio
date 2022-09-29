@@ -8,6 +8,28 @@ date: "2022-09-29"
 
 print("Hola mundo")
 
+lista<-c(1,2,3,4)
+
+i <- 1
+for (i in lista) {
+ lista[i] <- i*i}
+
+lista<-c(1,2,3,4)
+
+i <- 1
+for (i in lista) {
+ lista[i] <- 3*i}
+
+lista<-c(1,2,3,4)
+
+i <- 1
+for (i in lista) {
+ if(i-1 == 0){
+ lista[i] <-0
+ } else {
+ lista[i] <-i}}
+
+
 print("Adios Mundo")
 
 ```
