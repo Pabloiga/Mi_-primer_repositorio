@@ -8,17 +8,22 @@ date: "2022-09-29"
 
 print("Hola mundo")
 
+#Obtiene la potencia(2) de cada valor de indice del vector
 lista<-c(1,2,3,4)
 
 i <- 1
 for (i in lista) {
  lista[i] <- i*i}
 
+
+#Triplica cada valor de indice del vector
 lista<-c(1,2,3,4)
 
 i <- 1
 for (i in lista) {
  lista[i] <- 3*i}
+
+#Deja 0 los casos valor de indice a los que se les reste 1 y se obtenga 0
 
 lista<-c(1,2,3,4)
 
